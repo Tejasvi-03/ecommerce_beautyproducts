@@ -13,3 +13,4 @@ Vite serves files in the public/ directory at the site root, so these will resol
 
 Tip: Use JPG/PNG optimized for web (<= 300–600 KB) for faster loading.
 
+

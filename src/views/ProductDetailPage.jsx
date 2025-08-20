@@ -1,25 +1,45 @@
 import { useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 import RatingStars from '../components/RatingStars'
-
-const MOCK = {
-  id: '1',
-  name: 'Hydrating Face Serum',
-  description: 'Deeply hydrating serum with hyaluronic acid and vitamin B5.',
-  price: 899,
-  images: [
-    'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=1470&auto=format&fit=crop',
-    'https://picsum.photos/seed/serum/600/400'
-  ],
-  rating: 4.5,
-  reviews: [
-    { id: 'r1', user: 'Aisha', rating: 5, comment: 'Amazing hydration!' },
-    { id: 'r2', user: 'Neha', rating: 4, comment: 'Good but a bit sticky.' },
-  ],
-}
+import dataService from '../services/dataService'
+import { useCart } from '../state/CartContext'
 
 export default function ProductDetailPage() {
   const { id } = useParams()
-  const product = { ...MOCK, id }
+  const { addItem } = useCart()
+  const [product, setProduct] = useState(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const loadProduct = async () => {
+      try {
+        const productData = await dataService.getProductById(id)
+        setProduct(productData)
+      } catch (error) {
+        console.error('Error loading product:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    loadProduct()
+  }, [id])
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-[400px]">
+        <div className="text-gray-500">Loading product...</div>
+      </div>
+    )
+  }
+
+  if (!product) {
+    return (
+      <div className="flex items-center justify-center min-h-[400px]">
+        <div className="text-gray-500">Product not found</div>
+      </div>
+    )
+  }
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
       <div className="lg:col-span-6 space-y-3">
@@ -42,7 +62,12 @@ export default function ProductDetailPage() {
         <p className="text-gray-700">{product.description}</p>
         <div className="text-3xl font-bold">₹{product.price}</div>
         <div className="flex items-center gap-3">
-          <button className="px-4 py-2 bg-brand-600 text-white rounded-md hover:bg-brand-700">Add to Cart</button>
+          <button 
+            onClick={() => addItem(product, 1)} 
+            className="px-4 py-2 bg-brand-600 text-white rounded-md hover:bg-brand-700"
+          >
+            Add to Cart
+          </button>
           <button className="px-4 py-2 border rounded-md hover:bg-gray-50">Buy Now</button>
         </div>
 

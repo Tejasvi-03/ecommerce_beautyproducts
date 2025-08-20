@@ -1,0 +1,30 @@
+[
+  {
+    "id": "skincare",
+    "name": "Skincare",
+    "key": "skincare",
+    "image": "/images/skincare.jpg",
+    "description": "Essential skincare products for healthy, glowing skin"
+  },
+  {
+    "id": "haircare",
+    "name": "Haircare",
+    "key": "haircare",
+    "image": "/images/haircare.jpg",
+    "description": "Professional haircare solutions for all hair types"
+  },
+  {
+    "id": "makeup",
+    "name": "Makeup",
+    "key": "makeup",
+    "image": "/images/makeup.jpg",
+    "description": "High-quality makeup products for every occasion"
+  },
+  {
+    "id": "fragrance",
+    "name": "Fragrance",
+    "key": "fragrance",
+    "image": "/images/fragrance.jpg",
+    "description": "Luxurious fragrances for men and women"
+  }
+]

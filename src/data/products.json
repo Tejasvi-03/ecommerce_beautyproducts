@@ -1,0 +1,306 @@
+[
+  {
+    "id": "1",
+    "name": "Hydrating Face Serum",
+    "description": "Deeply hydrating serum with hyaluronic acid and vitamin B5 for plump, moisturized skin.",
+    "price": 899,
+    "rating": 4.5,
+    "category": "skincare",
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=1470&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=1470&auto=format&fit=crop",
+      "https://picsum.photos/seed/serum1/600/400"
+    ],
+    "reviews": [
+      { "id": "r1", "user": "Aisha", "rating": 5, "comment": "Amazing hydration! My skin feels so plump." },
+      { "id": "r2", "user": "Neha", "rating": 4, "comment": "Good but a bit sticky. Still works great!" }
+    ],
+    "inStock": true,
+    "brand": "Glow Essentials"
+  },
+  {
+    "id": "2",
+    "name": "Vitamin C Brightening Serum",
+    "description": "Potent vitamin C serum that brightens skin tone and reduces dark spots.",
+    "price": 1299,
+    "rating": 4.8,
+    "category": "skincare",
+    "image": "https://picsum.photos/seed/vitaminc/600/400",
+    "images": [
+      "https://picsum.photos/seed/vitaminc/600/400",
+      "https://picsum.photos/seed/vitaminc2/600/400"
+    ],
+    "reviews": [
+      { "id": "r3", "user": "Priya", "rating": 5, "comment": "Amazing results! My skin is so much brighter." },
+      { "id": "r4", "user": "Maya", "rating": 4, "comment": "Great product, slight tingling but effective." }
+    ],
+    "inStock": true,
+    "brand": "Skin Radiance"
+  },
+  {
+    "id": "3",
+    "name": "Gentle Face Wash",
+    "description": "Sulfate-free gentle cleanser that removes impurities without stripping skin.",
+    "price": 599,
+    "rating": 4.3,
+    "category": "skincare",
+    "image": "https://picsum.photos/seed/facewash/600/400",
+    "images": [
+      "https://picsum.photos/seed/facewash/600/400",
+      "https://picsum.photos/seed/facewash2/600/400"
+    ],
+    "reviews": [
+      { "id": "r5", "user": "Riya", "rating": 4, "comment": "Gentle and effective. Perfect for sensitive skin." },
+      { "id": "r6", "user": "Anjali", "rating": 5, "comment": "Love this cleanser! Doesn't dry out my skin." }
+    ],
+    "inStock": true,
+    "brand": "Pure Clean"
+  },
+  {
+    "id": "4",
+    "name": "Face Moisturizer",
+    "description": "Lightweight, non-greasy moisturizer that provides 24-hour hydration.",
+    "price": 799,
+    "rating": 4.6,
+    "category": "skincare",
+    "image": "https://picsum.photos/seed/moisturizer/600/400",
+    "images": [
+      "https://picsum.photos/seed/moisturizer/600/400",
+      "https://picsum.photos/seed/moisturizer2/600/400"
+    ],
+    "reviews": [
+      { "id": "r7", "user": "Zara", "rating": 5, "comment": "Perfect texture and amazing hydration!" },
+      { "id": "r8", "user": "Kavya", "rating": 4, "comment": "Great moisturizer, absorbs quickly." }
+    ],
+    "inStock": true,
+    "brand": "Hydra Plus"
+  },
+  {
+    "id": "5",
+    "name": "Hair Serum",
+    "description": "Argan oil-based serum that tames frizz and adds shine to all hair types.",
+    "price": 699,
+    "rating": 4.4,
+    "category": "haircare",
+    "image": "https://picsum.photos/seed/hairserum/600/400",
+    "images": [
+      "https://picsum.photos/seed/hairserum/600/400",
+      "https://picsum.photos/seed/hairserum2/600/400"
+    ],
+    "reviews": [
+      { "id": "r9", "user": "Sana", "rating": 5, "comment": "Amazing! My hair is so smooth and shiny now." },
+      { "id": "r10", "user": "Fatima", "rating": 4, "comment": "Great serum, reduces frizz effectively." }
+    ],
+    "inStock": true,
+    "brand": "Silk & Shine"
+  },
+  {
+    "id": "6",
+    "name": "Hair Shampoo",
+    "description": "Sulfate-free shampoo that cleanses gently while maintaining natural oils.",
+    "price": 549,
+    "rating": 4.2,
+    "category": "haircare",
+    "image": "https://picsum.photos/seed/shampoo/600/400",
+    "images": [
+      "https://picsum.photos/seed/shampoo/600/400",
+      "https://picsum.photos/seed/shampoo2/600/400"
+    ],
+    "reviews": [
+      { "id": "r11", "user": "Layla", "rating": 4, "comment": "Good shampoo, leaves hair soft and clean." },
+      { "id": "r12", "user": "Noor", "rating": 4, "comment": "Gentle on scalp, no irritation." }
+    ],
+    "inStock": true,
+    "brand": "Natural Care"
+  },
+  {
+    "id": "7",
+    "name": "Matte Lipstick",
+    "description": "Long-lasting matte lipstick with intense color payoff and comfortable wear.",
+    "price": 399,
+    "rating": 4.7,
+    "category": "makeup",
+    "image": "https://picsum.photos/seed/mattelip/600/400",
+    "images": [
+      "https://picsum.photos/seed/mattelip/600/400",
+      "https://picsum.photos/seed/mattelip2/600/400"
+    ],
+    "reviews": [
+      { "id": "r13", "user": "Ayesha", "rating": 5, "comment": "Perfect matte finish! Stays on for hours." },
+      { "id": "r14", "user": "Hana", "rating": 4, "comment": "Great color, slightly drying but beautiful finish." }
+    ],
+    "inStock": true,
+    "brand": "Luxe Lips"
+  },
+  {
+    "id": "8",
+    "name": "Velvet Lipstick",
+    "description": "Creamy velvet lipstick with rich pigmentation and smooth application.",
+    "price": 449,
+    "rating": 4.5,
+    "category": "makeup",
+    "image": "https://picsum.photos/seed/velvetlip/600/400",
+    "images": [
+      "https://picsum.photos/seed/velvetlip/600/400",
+      "https://picsum.photos/seed/velvetlip2/600/400"
+    ],
+    "reviews": [
+      { "id": "r15", "user": "Yasmin", "rating": 5, "comment": "So creamy and pigmented! Love the texture." },
+      { "id": "r16", "user": "Amira", "rating": 4, "comment": "Beautiful color, applies smoothly." }
+    ],
+    "inStock": true,
+    "brand": "Velvet Touch"
+  },
+  {
+    "id": "9",
+    "name": "Natural Eyelashes",
+    "description": "Handcrafted natural-looking false eyelashes for dramatic volume.",
+    "price": 299,
+    "rating": 4.3,
+    "category": "makeup",
+    "image": "https://picsum.photos/seed/eyelashes/600/400",
+    "images": [
+      "https://picsum.photos/seed/eyelashes/600/400",
+      "https://picsum.photos/seed/eyelashes2/600/400"
+    ],
+    "reviews": [
+      { "id": "r17", "user": "Leila", "rating": 4, "comment": "Look very natural and easy to apply." },
+      { "id": "r18", "user": "Nadia", "rating": 4, "comment": "Good quality lashes, comfortable to wear." }
+    ],
+    "inStock": true,
+    "brand": "Natural Beauty"
+  },
+  {
+    "id": "10",
+    "name": "BB Cream",
+    "description": "All-in-one BB cream that provides coverage, hydration, and sun protection.",
+    "price": 649,
+    "rating": 4.4,
+    "category": "makeup",
+    "image": "https://picsum.photos/seed/bbcream/600/400",
+    "images": [
+      "https://picsum.photos/seed/bbcream/600/400",
+      "https://picsum.photos/seed/bbcream2/600/400"
+    ],
+    "reviews": [
+      { "id": "r19", "user": "Sara", "rating": 4, "comment": "Great coverage and feels lightweight on skin." },
+      { "id": "r20", "user": "Mira", "rating": 5, "comment": "Perfect for everyday wear! Natural finish." }
+    ],
+    "inStock": true,
+    "brand": "Perfect Base"
+  },
+  {
+    "id": "11",
+    "name": "Blush",
+    "description": "Silky smooth blush with buildable color for a natural flush.",
+    "price": 349,
+    "rating": 4.6,
+    "category": "makeup",
+    "image": "https://picsum.photos/seed/blush/600/400",
+    "images": [
+      "https://picsum.photos/seed/blush/600/400",
+      "https://picsum.photos/seed/blush2/600/400"
+    ],
+    "reviews": [
+      { "id": "r21", "user": "Diana", "rating": 5, "comment": "Beautiful color and blends perfectly!" },
+      { "id": "r22", "user": "Elena", "rating": 4, "comment": "Great pigmentation, lasts all day." }
+    ],
+    "inStock": true,
+    "brand": "Rosy Glow"
+  },
+  {
+    "id": "12",
+    "name": "Eyeliner",
+    "description": "Waterproof liquid eyeliner with precise tip for perfect wings.",
+    "price": 399,
+    "rating": 4.5,
+    "category": "makeup",
+    "image": "https://picsum.photos/seed/eyeliner/600/400",
+    "images": [
+      "https://picsum.photos/seed/eyeliner/600/400",
+      "https://picsum.photos/seed/eyeliner2/600/400"
+    ],
+    "reviews": [
+      { "id": "r23", "user": "Sophia", "rating": 5, "comment": "Perfect for creating sharp wings! Very precise." },
+      { "id": "r24", "user": "Isabella", "rating": 4, "comment": "Great staying power, doesn't smudge." }
+    ],
+    "inStock": true,
+    "brand": "Precision Line"
+  },
+  {
+    "id": "13",
+    "name": "Perfume",
+    "description": "Elegant floral fragrance with notes of jasmine, rose, and vanilla.",
+    "price": 2499,
+    "rating": 4.8,
+    "category": "fragrance",
+    "image": "https://picsum.photos/seed/perfume/600/400",
+    "images": [
+      "https://picsum.photos/seed/perfume/600/400",
+      "https://picsum.photos/seed/perfume2/600/400"
+    ],
+    "reviews": [
+      { "id": "r25", "user": "Grace", "rating": 5, "comment": "Absolutely divine! Long-lasting and elegant." },
+      { "id": "r26", "user": "Emma", "rating": 5, "comment": "Beautiful scent, perfect for special occasions." }
+    ],
+    "inStock": true,
+    "brand": "Luxe Scents"
+  },
+  {
+    "id": "14",
+    "name": "Cologne",
+    "description": "Fresh and masculine cologne with citrus and woody undertones.",
+    "price": 1899,
+    "rating": 4.4,
+    "category": "fragrance",
+    "image": "https://picsum.photos/seed/cologne/600/400",
+    "images": [
+      "https://picsum.photos/seed/cologne/600/400",
+      "https://picsum.photos/seed/cologne2/600/400"
+    ],
+    "reviews": [
+      { "id": "r27", "user": "Alex", "rating": 4, "comment": "Fresh and clean scent, perfect for daily wear." },
+      { "id": "r28", "user": "Jordan", "rating": 5, "comment": "Love this fragrance! Gets many compliments." }
+    ],
+    "inStock": true,
+    "brand": "Fresh & Bold"
+  },
+  {
+    "id": "15",
+    "name": "Retinol Night Cream",
+    "description": "Advanced anti-aging night cream with encapsulated retinol for gentle exfoliation.",
+    "price": 1599,
+    "rating": 4.7,
+    "category": "skincare",
+    "image": "https://picsum.photos/seed/retinol/600/400",
+    "images": [
+      "https://picsum.photos/seed/retinol/600/400",
+      "https://picsum.photos/seed/retinol2/600/400"
+    ],
+    "reviews": [
+      { "id": "r29", "user": "Olivia", "rating": 5, "comment": "Amazing results! My skin texture has improved so much." },
+      { "id": "r30", "user": "Ava", "rating": 4, "comment": "Great product, but start slow to avoid irritation." }
+    ],
+    "inStock": true,
+    "brand": "Age Defy"
+  },
+  {
+    "id": "16",
+    "name": "Hair Mask",
+    "description": "Intensive hair mask with keratin and argan oil for deep repair and shine.",
+    "price": 899,
+    "rating": 4.5,
+    "category": "haircare",
+    "image": "https://picsum.photos/seed/hairmask/600/400",
+    "images": [
+      "https://picsum.photos/seed/hairmask/600/400",
+      "https://picsum.photos/seed/hairmask2/600/400"
+    ],
+    "reviews": [
+      { "id": "r31", "user": "Lily", "rating": 5, "comment": "My hair feels so soft and healthy after using this!" },
+      { "id": "r32", "user": "Chloe", "rating": 4, "comment": "Great deep conditioning treatment, reduces frizz." }
+    ],
+    "inStock": true,
+    "brand": "Deep Repair"
+  }
+]
